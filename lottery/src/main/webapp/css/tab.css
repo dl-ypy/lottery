@@ -1,0 +1,89 @@
+.left{float:left;}
+.right{float:right;}
+.pointer{cursor:pointer;}
+/*清除浮动*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1}
+/*页面开始*/
+.titleH1{
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+	color: #C60023;
+	font-weight:400;
+	border-bottom:1px solid #C60023;
+	overflow: hidden;
+}
+.title{
+	width: 100%;
+	padding-left:1px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.title li{
+	text-align:center;
+	background-color:#DCDCDC;
+	font-size:17px;
+	float:left;
+	cursor:pointer;
+	padding:6px 0;
+}
+.title li.cur{
+	background:#C60023;
+	color:#ffffff;
+}
+.titleexp li{
+	float:left;
+	margin-right:10px;
+}
+.zong{
+	clear:both;
+	width:1080px;
+	overflow:hidden;
+}
+.list{
+	width:6480px;
+	overflow:hidden;
+}
+.list .tabCon{
+	float:left;
+	width:1080px;
+	height:250px;
+	border-top:0px ;
+}
+.tabth{
+	width:1080px;
+	height:37px;
+	line-height:37px;
+	color:#ffffff;
+	background-color:#C60023;
+	overflow: hidden;
+}
+.tabth span{
+	display:inline-block;
+	text-align:center;
+	float:left;
+}
+#s1,#s2,#s3,#s4,#s5,#s6{height:210px;overflow:hidden;}
+.tabUl{
+	overflow:hidden;
+}
+.tabtr{
+	border-bottom: 1px solid #C60023;
+	width:1080px;
+	height:40px;
+	*height:38px;
+	line-height:40px;
+	*line-height:38px;
+	overflow: hidden;
+}
+.tabtr span,.tabtr a{
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+	float:left;
+	text-decoration:none;
+}
+.clickbtn{border-radius:5px;padding:5px 10px;}
+.hot{background:#e25353;color:#ffffff;cursor:pointer;}
+.pass{background:#b1b2b3;color:#666666;cursor:no-drop;}

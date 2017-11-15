@@ -1,0 +1,224 @@
+/*css reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f6f6f6;
+	font: 12px/1.5 tahoma,arial,"microsoft yahei",sans-serif;
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+	border: none;
+}
+label{
+	cursor: pointer;
+}
+input[type='checkbox']{
+	cursor: pointer;
+}
+
+/*瀹氬甯冨眬*/
+.w{
+	width: 1080px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;/*鍙互娓呴櫎娴姩*/
+}
+/*panel*/
+.panel{
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+}
+.panel-title{
+	padding: 10px;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+.panel-body{
+	padding: 10px;
+	overflow: hidden;
+}
+/*鍏ㄥ眬閫氱敤鏍峰紡*/
+/*闅愯棌绫�*/
+.hide{
+	display: none;
+}
+/*瓒呴摼鏍峰紡*/
+.link{
+	color: #999;
+	cursor: pointer;
+	text-decoration: none;
+}
+.link:hover{
+	color: #e80012;
+	text-decoration: none;
+}
+.link-text{
+	color: #999;
+	text-decoration: none;
+}
+/*btn*/
+.btn{
+	display: inline-block;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	border: none;
+	background: #c60023;
+	font-size: 17px;
+	font-weight: bold;
+	color: #F6F6F6;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+.btn-mini{
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	padding: 0 10px;
+}
+
+/*閫氱敤澶撮儴瀵艰埅*/
+.header .logo{
+	position: absolute;
+	left: 60px;
+	top: 34px;
+	display: block;
+	font-size: 36px;
+	color: #C60023;
+	font-weight: bold;
+	text-decoration: none;
+}
+.search-con{
+	padding: 40px 0 30px 250px;
+}
+.search-input{
+	width: 550px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	border: 2px solid #C60023;
+	outline: none;
+}
+.search_btn{
+	position: absolute;
+	height: 44px;
+	width: 80px;
+	text-align: center;
+}
+
+/*-----nav*/
+.nav{
+	background: #eee;
+	height: 30px;
+	line-height: 30px;
+}
+/*鐢ㄦ埛閮ㄥ垎*/
+.nav .user{
+	float: left;
+}
+.nav .user.login{
+	display: none;
+}
+.nav .user .link{
+	margin-right: 5px;
+}
+/*瀵艰埅閾炬帴閮ㄥ垎*/
+.nav .nav-list{
+	float: right;
+}
+.nav .nav-list .nav-item{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/*鍥炬爣瀹氫綅*/
+.user-item .user-label img{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+
+/*闈㈠寘灞戝鑸�*/
+.crumb{
+	height: 50px;
+	line-height: 50px;
+	background: #eee;
+	color: #888;
+	font-size: 14px;
+	margin-bottom: 15px;
+	border-top: 2px solid #C60023;
+}
+
+/*瀵艰埅涓婚*/
+.nav-side{
+	float: left;
+	width: 130px;
+	min-height: 100px;
+}
+.nav-list{
+	float: right;
+}
+.nav-item{
+	line-height: 25px;
+	font-size: 13px;
+}
+.nav-side .nav-item .link{
+	color: #888;
+}
+.nav-side .nav-item.active .link{
+	color: #C60023;
+}
+/*鍙充晶鍐呭鍖�*/
+.content.with-nav{
+	float: left;
+	width: 950px;
+}
+/*鍗曚竴nav*/
+.nav-simple{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #DDDDDD;
+	background: #fff;
+}
+.nav-simple .logo{
+	font-size: 26px;
+	font-weight: bold;
+	color: #C60023;
+	text-decoration: none;
+}
+
+
+/*灏鹃儴鏍峰紡*/
+.footer{
+	padding-bottom: 10px;
+}
+.footer .links{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+.footer .links .link{
+	padding: 0 10px;
+}
+.footer .copyright{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+/*分页*/
+.page_box{width:100%;height: auto;padding:10px 0;}
+.page{width:100%;text-align: center;}
+.page a{padding:4px 8px;border:1px solid #c60023;border-radius: 4px;color:#333;cursor: pointer;margin-right:5px;}
+.page a.page_active,.page a:hover{background: #C60023;color:#fff;}

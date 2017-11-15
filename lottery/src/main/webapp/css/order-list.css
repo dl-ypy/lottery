@@ -1,0 +1,43 @@
+.order-list-table{
+	width: 100%;
+	border-collapse: collapse;
+	background: #FAFAFA;
+	margin-bottom: 20px;
+}
+.order-list-table .cell{
+	padding: 10px 0;
+	color: #666666;
+	border-bottom: 1px solid #eee;
+}
+.order-list-table.header{
+	background: #eee;
+}
+.order-info{
+	background: #EEEEEE;
+	padding: 10px;
+	color: #999999;
+}
+.order-text{
+	margin-right: 25px;
+}
+.order-num{
+	font-weight: bold;
+}
+.order-total{
+	font-weight: bold;
+	color: #C60023;
+}
+.order-detail{
+	float: right;
+}
+.cell-img{
+	width: 10%;
+	text-align: center;
+	padding: 10px;
+}
+.cell-img .p-img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #DDDDDD;
+}
+.bill-table .cell{width:33%;text-align: center;}

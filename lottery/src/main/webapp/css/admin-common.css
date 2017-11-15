@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+/*css reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 12px/1.5 tahoma,arial,"microsoft yahei",sans-serif;
+	
+}
+
+label{
+	cursor: pointer;
+}
+input[type='checkbox']{
+	cursor: pointer;
+}
+
+/*瀹氬甯冨眬*/
+.w{
+	width: 1080px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;/*鍙互娓呴櫎娴姩*/
+}
+
+/*鍏ㄥ眬閫氱敤鏍峰紡*/
+/*闅愯棌绫�*/
+.hide{
+	display: none;
+}
+/*瓒呴摼鏍峰紡*/
+.link{
+	color: #999;
+	cursor: pointer;
+	text-decoration: none;
+}
+.link:hover{
+	color: #e80012;
+	text-decoration: none;
+}
+.link-text{
+	color: #999;
+	text-decoration: none;
+}
+
+
+/*btn*/
+.btn{
+	display: inline-block;
+	padding: 0 50px;
+	line-height: 40px;
+	vertical-align: middle;
+	border: none;
+	background: #0080ff;
+	font-size: 17px;
+	font-weight: bold;
+	color: #F6F6F6;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+} 
+
+
+ .btn-mini{
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	padding: 0 10px;
+} 
+
+/*鍥炬爣瀹氫綅*/
+.user-item .user-label img{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+
+.state{
+	font-size: 15px;
+	font-weight: 200;
+}
+
+
+/*灏鹃儴鏍峰紡*/
+.footer{
+	padding-bottom: 10px;
+}
+.footer .links{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+.footer .links .link{
+	padding: 0 10px;
+}
+.footer .copyright{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}

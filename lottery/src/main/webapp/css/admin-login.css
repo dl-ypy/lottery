@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+/*鏈�澶栧眰瀹瑰櫒*/
+.page-wrap{
+	padding: 40px 0;
+	height:600px;
+}
+
+/*琛ㄥ崟妗�*/
+.page-wrap .user-con{
+	position: relative;
+	left:45px;
+	width: 370px;
+	height:460px;
+	top:100px;
+	background: #fff;
+}
+.page-wrap .user-title{
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+}
+.page-wrap .user-box{
+	padding: 20px;
+}
+/*閿欒鎻愮ず妗�*/
+.page-wrap .error-item{
+	position: relative;
+	padding: 4px 0 4px 40px;
+	margin-bottom: 10px;
+	border: 1px solid #f00;
+	color: #f00;
+	background: #fde9e9;
+	display: none;
+}
+/*閿欒鍥炬爣*/
+.page-wrap .error-icon{
+	position: absolute;
+	left: 14px;
+	top: 50%;
+	font-size: 14px;
+	margin-top: -7px;
+}
+.page-wrap .user-item{
+	position: relative;
+	margin-bottom: 20px;
+}
+.page-wrap .user-item .user-label{
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	bottom: 1px;
+	width: 40px;
+	line-height: 36px;
+	background: #f3f3f3;
+	font-size: 18px;
+	color: #d3d3d3;
+	text-align: center;
+	border-right: 1px solid #BDBDBD;
+}
+.page-wrap .user-item .user-label img{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+.page-wrap .user-content{
+	padding: 10px 0 10px 50px;
+	width: 270px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 15px;
+	border: 1px solid #bdbdbd;
+	outline: none;
+}
+.page-wrap .btn-submit{
+	width: 40%;
+	padding: 2px 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+.page-wrap .btn-reset{
+	width: 40%;
+	padding: 2px 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*璺宠浆閾炬帴*/
+.page-wrap .link-item{
+	text-align: right;
+	margin-top: 10px;
+}
+.page-wrap .link{
+	margin-left: 10px;
+	color: #999;
+}
