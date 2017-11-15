@@ -1,0 +1,58 @@
+1.添加奖项的获奖人数时，都初始化为0
+2.开奖时，滚存的操作要同步
+3.注册验证
+4.登录验证
+5.短信发送验证码
+6.添加交易信息时要传一个flag 1或0 判断是增是减
+7.首页开奖时间与开奖号码，彩种颜色
+8.首页显示最近5期
+9.个人中心中左侧的列表切换
+
+
+
+
+Exception
+1.MyBatis映射错误:There is no setter for property named xxx
+	解决：请检查线xxx，在xml中的property是否和实体类中相同(区分大小写)！
+2.多表查询时，未明确定义列， 因为用PageHelper分页时会嵌套查询语句，如果有重复列名就会报错，  所以sql语句中要为每个字段起别名。
+
+
+
+
+
+任务：
+1.充值,充值时要将已登录信息的余额set修改掉
+2.过滤、页面安全
+
+
+
+
+
+
+
+
+new:
+1.ajax传json值
+2.在js中用el表达式赋值需要加引号 如：var url = "${param.url}";
+3.jquery得到循环的input中的值，通过class名   	         $(".starttimespan").each(function(){
+				    				var starttime = $(this).text();
+				    
+							 });
+4.timestamp类型判断大小：nowTime.before(lotteryVo.getStarttime())   或  after
+5.mybatis映射文件中写并且关系用and。
+6.el表达式拼接字符串时，用<c:set标签做中转
+7.js函数的参数若为el表达式表示的字符串，需要加''。
+
+
+
+
+question:
+1.button onclick事件处理ajax跳转时url后面多了参数
+2.mybatis vo层short类型不传值默认为0
+3.springnvc用map传值传不过去。
+
+
+
+
+bug:
+1.前台与后台同一session名的值。
